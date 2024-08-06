@@ -1,6 +1,4 @@
-# <center><i>Prasunet Company Machine Learning Project - 01</i></center>
-
-# <center>House Prices Prediction</center>
+# <center>Spam Mail Classification</center>
 
 ## Objective 🏠
 The goal of this project is to develop a machine learning model that classifies emails as either "Spam" or "Ham" (non-spam). The primary goal is to create a robust and accurate classification system that can effectively identify and filter out unwanted spam emails from legitimate messages, thereby improving email management and user experience.
