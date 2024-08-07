@@ -30,7 +30,7 @@ def main():
         return
 
     # Input mail text
-    text = st.text_area('Input Mail Text Here', height=250)
+    text = st.text_area('Input Mail Text Here', height=175)
 
     if st.button('Predict'):
         if text:
