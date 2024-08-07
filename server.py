@@ -1,6 +1,5 @@
 import streamlit as st
 import pickle
-from sklearn.feature_extraction.text import TfidfVectorizer
 
 st.set_page_config(page_icon='📨', page_title='Spam Mail Classification', layout="wide")
 
@@ -31,7 +30,7 @@ def main():
         return
 
     # Input mail text
-    text = st.text_area('Input Mail Text Here', height=150)
+    text = st.text_area('Input Mail Text Here', height=250)
 
     if st.button('Predict'):
         if text:
